@@ -1,0 +1,17 @@
+# Chuẩn hoá line ending: kho lưu LF, checkout theo hệ điều hành
+* text=auto
+
+# Tài liệu nhị phân: không diff, không merge
+*.pdf binary
+*.docx binary
+*.ppt binary
+*.pptx binary
+*.xopp binary
+
+# GitHub không tính tài liệu vào thống kê ngôn ngữ
+*.pdf linguist-documentation
+*.docx linguist-documentation
+
+# Ưu tiên diff văn bản cho mã nguồn và ghi chú
+*.md diff
+*.cpp diff
